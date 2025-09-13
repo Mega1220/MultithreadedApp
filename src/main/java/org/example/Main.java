@@ -21,8 +21,8 @@ public class Main {
 
 
 
-//        new Thread(lockerEgor).start();
-//        new Thread(lockerJohn).start();
+        new Thread(lockerEgor).start();
+        new Thread(lockerJohn).start();
 
         Thread printOne = new ThreadOutputNumber(ThreadOutputNumber.NUMBER_ONE);
         Thread printTwo = new ThreadOutputNumber(ThreadOutputNumber.NUMBER_TWO);
